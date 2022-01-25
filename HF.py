@@ -5,9 +5,9 @@ import sqlite3
 root=Tk()
 root.title('Home finders v0.1')
 root.geometry('300x330')
-f1=Frame(root, bg='black')
+f1=Frame(root, bg='#64778D')
 f1.pack()
-f2=Frame(root, bg='black')
+f2=Frame(root, bg='#64778D')
 f2.pack()
 #root=cascade // f1=entrys & labels // f2=buttons
 
