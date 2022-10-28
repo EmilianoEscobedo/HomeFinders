@@ -20,7 +20,7 @@ Click at DataBase dropdown option and select "Create". <br>
 This creates a SQLite DB in the actual folder, there will be all the records you create.
 
 <div align="center">
-  <p>Register Succsefully</p>
+  <p>New DB created</p>
   <img src="https://i.ibb.co/zXBKNhR/db.png" alt="Create DB"/>
 </div>
 <br>
