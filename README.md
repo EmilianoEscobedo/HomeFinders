@@ -9,8 +9,8 @@ Normally in Argentina, my country of residence, the houses rented by individuals
 This project was born because I was looking for a house to rent and my father told me that surely if I told 100 people that I was looking for a house, one would appear. So I wanted to keep a little more proper record while learning about SQL and relational database foundations.
 
 <div align="center">
-  <p>Home Interface</p>
   <img src="https://i.ibb.co/gvrqRxT/home.png" alt="Home Interface"/>
+  <p>Home Interface</p>
 </div>
 
 ## How does it work
@@ -20,8 +20,8 @@ Click at DataBase dropdown option and select "Create". <br>
 This creates a SQLite DB in the actual folder, there will be all the records you create.
 
 <div align="center">
-  <p>New DB created</p>
   <img src="https://i.ibb.co/zXBKNhR/db.png" alt="Create DB"/>
+  <p>New DB created</p>
 </div>
 <br>
 
@@ -31,8 +31,8 @@ Fill in the fields with the information of the house finder, do not put anithing
 Tip: You can clean the fields with clean option in the same name dropdown
 
 <div align="center">
+  <img src="https://i.ibb.co/xY0Tmpp/register.png" alt="Register succsefully"/>f
   <p>Creating</p>
-  <img src="https://i.ibb.co/xY0Tmpp/register.png" alt="Register succsefully"/>
 </div>
 
 ### Reading a Register
@@ -40,8 +40,8 @@ Read a Register of the database <br>
 To read a register from the database, put the ID number in the corresponding field and click read button. <br>
 
 <div align="center">
-  <p>Reading</p>
   <img src="https://i.ibb.co/mJ8KwSv/read.png" alt="Read a register"/>
+  <p>Reading</p>
 </div>
 
 ### Updating a Register
@@ -49,8 +49,8 @@ Update a Register of the database <br>
 To update a register from the database, after read it, make some modifications on the fields you want and click update button. <br>
 
 <div align="center">
-  <p>Updating</p>
   <img src="https://i.ibb.co/Ns3Hjmj/update.png" alt="Update a register"/>
+  <p>Updating</p>
 </div>
 
 ### Deleting a Register
@@ -58,6 +58,6 @@ Delete a Register of the database <br>
 If you want delete a register from the database, after read it, click delete button, and accept the warning pop-up. <br>
 
 <div align="center">
-  <p>Deleting</p>
   <img src="https://i.ibb.co/3zCy5Cd/delete.png" alt="Delete a register"/>
+  <p>Deleting</p>
 </div>
