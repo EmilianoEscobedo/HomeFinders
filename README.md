@@ -1,5 +1,59 @@
-# HomeFinders - Rookie CRUD system.
-
+# HomeFinders - CRUD System
 Did you see someone who knows of a house for rent?
 
-A tiny and light environment to CRUD a DB in order to save potential finders for your next rented house.
+A software to CRUD a DB in order to save potential finders for your next rented house.
+Written in python, with sqlite DB and Tk as GUI.
+
+<div align="center">
+  <p>Home Interface</p>
+  <img src="https://i.ibb.co/gvrqRxT/home.png" alt="Home Interface"/>
+</div>
+
+## How does it work
+
+### Creating a new DB
+Click at DataBase dropdown option and select "Create". <br> 
+This creates a SQLite DB in the actual folder, there will be all the records you create.
+
+<div align="center">
+  <p>Register Succsefully</p>
+  <img src="https://i.ibb.co/zXBKNhR/db.png" alt="Create DB"/>
+</div>
+<br>
+
+### Creating a new Register
+Let's start loading information into our database <br> 
+Fill in the fields with the information of the house finder, do not put anithing in ID field, is an auto incrementing field. We will talk about that later. When you are ready, click into the create button.<br>
+Tip: You can clean the fields with clean option in the same name dropdown
+
+<div align="center">
+  <p>Creating</p>
+  <img src="https://i.ibb.co/xY0Tmpp/register.png" alt="Register succsefully"/>
+</div>
+
+### Reading a Register
+Read a Register of the database <br> 
+To read a register from the database, put the ID number in the corresponding field and click read button. <br>
+
+<div align="center">
+  <p>Reading</p>
+  <img src="https://i.ibb.co/mJ8KwSv/read.png" alt="Read a register"/>
+</div>
+
+### Updating a Register
+Update a Register of the database <br> 
+To update a register from the database, after read it, make some modifications on the fields you want and click update button. <br>
+
+<div align="center">
+  <p>Updating</p>
+  <img src="https://i.ibb.co/Ns3Hjmj/update.png" alt="Update a register"/>
+</div>
+
+### Deleting a Register
+Delete a Register of the database <br> 
+If you want delete a register from the database, after read it, click delete button, and accept the warning pop-up. <br>
+
+<div align="center">
+  <p>Deleting</p>
+  <img src="https://i.ibb.co/3zCy5Cd/delete.png" alt="Delete a register"/>
+</div>
