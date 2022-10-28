@@ -3,6 +3,10 @@ Did you see someone who knows of a house for rent?
 
 A software to CRUD a DB in order to save potential finders for your next rented house.
 Written in python, with sqlite DB and Tk as GUI.
+<br><br>
+Normally in Argentina, my country of residence, the houses rented by individuals are cheaper and have better conditions than those rented by real estate businesses.
+<br><br>
+This project was born because I was looking for a house to rent and my father told me that surely if I told 100 people that I was looking for a house, one would appear. So I wanted to keep a little more proper record while learning about SQL and relational database foundations.
 
 <div align="center">
   <p>Home Interface</p>
