@@ -6,7 +6,7 @@ Written in python, with sqlite DB and Tk as GUI.
 <br><br>
 Usually in Argentina, my country of residence, the houses rented by individuals are cheaper and have better conditions than those rented by real estate businesses.
 <br><br>
-This project was born because I was looking for a house to rent and my father told me that surely if I told 100 people that I was looking for a house, one would appear. So I wanted to keep a little more proper record while learning about SQL and relational database foundations.
+This project was born because I was looking for a house to rent and my father told me that surely if I told 100 people that I was looking for a house, one house would appear. So I wanted to keep a little more proper record while learning about SQL and relational database foundations.
 
 <div align="center">
   <img src="https://i.ibb.co/gvrqRxT/home.png" alt="Home Interface"/>
@@ -27,7 +27,7 @@ This creates a SQLite DB in the actual folder, there will be all the records you
 
 ### Creating a new Register
 Let's start loading information into our database <br> 
-Fill in the fields with the information of the house finder, do not put anithing in ID field, is an auto incrementing field. We will talk about that later. When you are ready, click into the create button.<br>
+Fill in the fields with the information of the house finder, do not put anything in ID field, it is an auto incrementing field. We will talk about that later. When you are ready, click into the create button.<br>
 Tip: You can clean the fields with clean option in the same name dropdown
 
 <div align="center">
@@ -37,7 +37,7 @@ Tip: You can clean the fields with clean option in the same name dropdown
 
 ### Reading a Register
 Read a Register of the database <br> 
-To read a register from the database, put the ID number in the corresponding field and click read button. <br>
+To read a register from the database, put the ID number in the corresponding field and click the read button. <br>
 
 <div align="center">
   <img src="https://i.ibb.co/mJ8KwSv/read.png" alt="Read a register"/>
@@ -46,7 +46,7 @@ To read a register from the database, put the ID number in the corresponding fie
 
 ### Updating a Register
 Update a Register of the database <br> 
-To update a register from the database, after read it, make some modifications on the fields you want and click update button. <br>
+To update a register from the database, after reading it, make some modifications on the fields you want and click the update button. <br>
 
 <div align="center">
   <img src="https://i.ibb.co/Ns3Hjmj/update.png" alt="Update a register"/>
@@ -55,7 +55,7 @@ To update a register from the database, after read it, make some modifications o
 
 ### Deleting a Register
 Delete a Register of the database <br> 
-If you want delete a register from the database, after read it, click delete button, and accept the warning pop-up. <br>
+If you want to delete a register from the database, after reading it, click the delete button, and accept the warning pop-up. <br>
 
 <div align="center">
   <img src="https://i.ibb.co/3zCy5Cd/delete.png" alt="Delete a register"/>
