@@ -1,5 +1,5 @@
 # HomeFinders - CRUD System
-Did you see someone who knows of a house for rent?
+Do you know someone who knows about a house for rent?
 
 A software to CRUD a DB in order to save potential finders for your next rented house.
 Written in python, with sqlite DB and Tk as GUI.
