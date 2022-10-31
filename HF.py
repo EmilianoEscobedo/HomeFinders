@@ -47,31 +47,29 @@ def helpmenu(o):
         ''')
     if o=='f':
         messagebox.showinfo('FAQ', '''
-        1. Q. WTF is this program? 
+        1. Q. What is this program? 
         1. A. This program its an usefull tool to make your own 
-        DB of home finders, a really tipically thing at Argentina 
-        and the rest of poor and shitty nations. 
-        2. Q. Nice! and how i use this crap? 
+        DB of home finders, a really tipically thing at Argentina.
+        2. Q. Nice! and how i use it? 
         2. A. If is your fist time at HF you will have to create DB
         at Connect button in the menu DB, after that 
         Do NOT introduce any charater at ID camp, its an 
         autoincrement camp and he does all the work :). 
-        Finally fill other camps and press Create button 
+        Finally fill other fields and press Create button 
         for save the data at your DB. 
-        3. Q. Ok, cool. And other buttons? 
-        3. A. Use your brain my good friend, 
-        now you are able to write an ID number
+        3. Q. Ok, cool. And now? 
+        3. A. Now you are able to write an ID number
         for read, update or delete information of your DB.
         Have a nice experience at HF v0.1 
         Good luck with your next home! 
-        A big hug from Laingardo.''')
+        ''')
     if o=='a':
         messagebox.showinfo('About',
         '''
-        Laingardo its a nice good guy who want 
+        Emiliano its a nice guy who want 
         to be a programmer.
         In your free time work on develop 
-        this tinys shit programs only for practice.
+        this simple programs for practice.
         ''')
 def save():
     hs=sqlite3.connect('Home Search')
@@ -97,7 +95,7 @@ def read():
 def update():
     hs=sqlite3.connect('Home Search')
     dbcursor=hs.cursor()
-    ask=messagebox.askquestion('Data Base', 'Do you wanna update these camps?')
+    ask=messagebox.askquestion('Data Base', 'Do you wanna update these fields?')
     if ask=='yes':
         saves=[Ename.get(), Erelation.get(), Etel.get(), Ecomment.get('1.0',END)]
         dbcursor.execute("UPDATE Home_Search SET NAME=?, RELATION=?, TEL=?, COMMENT=? WHERE ID="+Eid.get(), saves)
