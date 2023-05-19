@@ -55,7 +55,7 @@ To update a register from the database, after reading it, make some modification
 
 ### Deleting a Register
 Delete a Register of the database <br> 
-If you want to delete a register from the database, after reading it, click the delete button, and accept the warning pop-up. <br>
+If you want to delete a register from the database, after reading it, click the delete button, and accept the warning pop-up.  <br>
 
 <div align="center">
   <img src="https://i.ibb.co/3zCy5Cd/delete.png" alt="Delete a register"/>
